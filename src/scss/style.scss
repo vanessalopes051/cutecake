@@ -1,325 +1,316 @@
-$bg-color:#6A009E;
-$img: url('../css/img/img1.jpg');
-$img1: url('../css/img/img4.jpg');
+$bg-color: #6a009e;
+$img: url("../css/img/img1.jpg");
+$img1: url("../css/img/img4.jpg");
 
-@font-face{
+@font-face {
   font-family: Gabriola;
   src: url(../css/font/gabriola.ttf);
 }
 
-@font-face{
+@font-face {
   font-family: French Script MT;
   src: url(../css/font/french-script-mt.ttf);
 }
 
 //===========GAMBIARRAS E SUAS TECNOLOGIAS
+//Não tem nada aqui, mas poderia ter!!
+//========================================
 
 //===========NAVBAR E SUAS TECNOLOGIAS===========
 
-  //DEIXA O NAVBAR TRANPARENTE
-    .navbar{
-      transition: 700ms ease;
-      background-color: transparent;
-      opacity: 1;
-      letter-spacing: 4px;
-      padding-top: 20px;
-      font-size: 28px;
-      font-family: Gabriola;
-      font-style: normal;
-      .nav-link{
-        color: #FB9DB6;
-      }
-    }
+//DEIXA O NAVBAR TRANPARENTE
+.navbar {
+  transition: 700ms ease;
+  background-color: transparent;
+  opacity: 1;
+  letter-spacing: 4px;
+  padding-top: 20px;
+  font-size: 28px;
+  font-family: Gabriola;
+  font-style: normal;
+  .nav-link {
+    color: #fb9db6;
+  }
+}
 
-  //FORMATAÇÃO NAVBAR BRAND  
-   .navbar-brand{
-      font-size: 45px;
-      font-family: French Script MT;
-      color: #FB9DB6;
-    }
+//FORMATAÇÃO NAVBAR BRAND
+.navbar-brand {
+  font-size: 45px;
+  font-family: French Script MT;
+  color: #fb9db6;
+}
 
-  //ALTERA ICONE MENU RESPONSIVO
-    #mainNav .navbar-toggler {
-      font-size: 20px;
-      right: 0;
-      margin: 3px;
-      padding: 13px;
-      text-transform: uppercase;
-      color: #4B1A0C;
-      border:  5;
-      border-color:  #4B1A0C;
-      background-color:#FCE5F2;
-      font-family:Gabriola;
-    }
+//ALTERA ICONE MENU RESPONSIVO
+#mainNav .navbar-toggler {
+  font-size: 20px;
+  right: 0;
+  margin: 3px;
+  padding: 13px;
+  text-transform: uppercase;
+  color: #4b1a0c;
+  border: 5;
+  border-color: #4b1a0c;
+  background-color: #fce5f2;
+  font-family: Gabriola;
+}
 
-  //ALTERA COR NAVBAR DE ACORDO COM SCROLL  
-    .navbar.scrolled{
-      background-color:#FCE5F2;
-    }
+//ALTERA COR NAVBAR DE ACORDO COM SCROLL
+.navbar.scrolled {
+  background-color: #fce5f2;
+}
 
-  //ALTERA TAMANHO DO NAVBAR DE ACORDO COM SCROLL
-    .navbar.shrink{
-      padding-top: 0px;
-      padding-bottom: 0px;
-    }
+//ALTERA TAMANHO DO NAVBAR DE ACORDO COM SCROLL
+.navbar.shrink {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
 //=========================FIM=========================
 
-
 //===========HEADER E SUAS TECNOLOGIAS===========
-  //IMAGEM DE CAPA  
-    header.apres{
-      background-image: $img;
-      background-attachment: scroll;
-      background-position: center center;
-      background-size: cover;
-      .container{
-        padding-top: 500px;
-        padding-bottom: 100px;
-        height: 655px;
+//IMAGEM DE CAPA
+header.apres {
+  background-image: $img;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+  .container {
+    padding-top: 500px;
+    padding-bottom: 100px;
+    height: 655px;
+  }
+}
+//======================FIM======================
+
+//===========SOBRE E SUAS TECNOLOGIAS===========
+//IMAGEM DE FUNDO
+section.page-sobre {
+  margin-top: 60px;
+  height: 690px;
+  background-image: $img1;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+}
+
+//CONTAINER COM CONTEUDO
+.container {
+  padding-top: 175px;
+  .content-sobre {
+    padding-top: 20px;
+    font-family: Gabriola;
+    font-size: 150% !important;
+    color: #4b1a0c;
+    text-align: justify;
+
+    //DIV QUE CONTÉM BOTÃO PORTFÓLIO
+    .con {
+      padding-top: 20px;
+    }
+
+    //fORMATAÇÃO BOTÃO PORTFOLIO
+    button.btn-port {
+      border-color: #fb9fb8;
+      border-radius: 15px;
+      a {
+        color: #4b1a0c;
+        text-decoration: none;
+        font-size: 25px;
+      }
+      a:hover {
+        color: white;
       }
     }
+    button:hover {
+      background: #fb9fb8;
+      color: white;
+    }
+  }
+}
+//======================FIM======================
+
+//===========PORTFOLIO E SUAS TECNOLOGIAS===========
+//SEÇÃO PORTFOLIO E SUAS CONFIGURAÇÕES
+section.page-section {
+  padding-bottom: 100px;
+  .section-heading {
+    padding-top: 80px;
+    height: 180px;
+    .title-portfolio {
+      font-family: French Script MT;
+      font-size: 80px;
+      color: #4b1a0c;
+    }
+  }
+
+  //MENU PORTFOLIO E SUAS CONFIGURAÇÕES
+  .container-sobre {
+    text-align: center;
+  }
+
+  .btn-group {
+    display: inline-block;
+    button.category-button {
+      border-color: #fb9fb8;
+      border-radius: 10px !important;
+      background-color: white;
+      color: #4b1a0c;
+      margin: 0 10px 6px 0;
+      letter-spacing: 1px;
+    }
+    button:hover {
+      background: #fb9fb8;
+      color: white;
+    }
+  }
+
+  // GAMBIARRA :ACTIVE
+  #all.btn {
+    background-color: #fb9fb8 !important;
+  }
+}
+//IMAGENS DO PORTFOLIO E SUAS CONFIGURAÇÕES
+#portfoliolist .portfolio {
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+}
+
+.portfolio img {
+  max-width: 100%;
+  position: relative;
+  margin-top: 25px;
+  height: 175px;
+  width: 200px;
+  -webkit-transition: all 600ms cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 600ms cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.portfolio:hover img {
+  transform: scale(1.1);
+}
+//======================FIM======================
+
+//===========CONTATO E SUAS TECNOLOGIAS===========
+
+section.page-contato {
+  .row {
+    margin: 3px;
+    margin-bottom: 80px;
+  }
+  .title-contato {
+    font-family: French Script MT;
+    font-size: 70px;
+    color: #4b1a0c;
+    padding-bottom: 50px;
+  }
+  .card {
+    border-color: #fb9db6;
+    border-radius: 15px;
+    font-family: Gabriola;
+    color: #4b1a0c;
+    font-size: 23px;
+    .iconePhone {
+      height: 18px;
+      width: 10px;
+    }
+    .iconeMail {
+      height: 18px;
+      width: 18px;
+    }
+    .card-title {
+      font-size: 23px;
+    }
+    hr {
+      border-color: #fb9db6;
+      border-width: 0.25rem;
+      width: 3rem;
+    }
+  }
+}
+//======================FIM======================
+
+//===========FOOTER E SUAS TECNOLOGIAS===========
+footer {
+  background: #ffeef8;
+  .row {
+    padding-top: 30px;
+    padding-bottom: 12px;
+    padding-left: 410px;
+    .social-media {
+      padding-right: 20px;
+      transition: all 0.4s ease-out;
+    }
+  }
+  .social-media:hover img {
+    cursor: pointer;
+    transform: translateY(-5px);
+  }
+  .footer-copyright {
+    margin-top: 10px;
+    color: #4b1a0c;
+  }
+}
 //======================FIM======================
 
 
-//===========SOBRE E SUAS TECNOLOGIAS===========
-  //IMAGEM DE FUNDO
-    section.page-sobre {
-      margin-top: 60px;
-      height: 690px;
-      background-image: $img1;
-      background-attachment: scroll;
-      background-position: center center;
-      background-size: cover; 
-    }
-
-  //CONTAINER COM CONTEUDO        
-    .container{
-    padding-top: 175px;
-      .content-sobre{
-      padding-top: 20px;
-      font-family: Gabriola;
-      font-size: 150% !important;
-      color: #4B1A0C;
-      text-align: justify;
-
-      //DIV QUE CONTÉM BOTÃO PORTFÓLIO
-      .con{
-      padding-top: 20px;
-      }
-
-        //fORMATAÇÃO BOTÃO PORTFOLIO
-      button.btn-port{
-        border-color:#FB9FB8;
-        border-radius: 15px;
-          a{
-            color:  #4B1A0C;
-            text-decoration: none;
-            font-size: 25px;
-          }  
-          a:hover{
-            color: white;
-          }      
-        }
-      button:hover{   
-          background: #FB9FB8;
-          color: white;
-          }              
-        }
-      }
- //======================FIM====================== 
-
-//===========PORTFOLIO E SUAS TECNOLOGIAS===========   
-  //SEÇÃO PORTFOLIO E SUAS CONFIGURAÇÕES
-    section.page-section {
-      padding-bottom: 100px;
-      .section-heading{  
-        padding-top: 80px;
-        height: 180px;
-        .title-portfolio{
-          font-family: French Script MT;
-          font-size: 80px;
-          color:  #4B1A0C;
-        }   
-    }
-  
-  //MENU PORTFOLIO E SUAS CONFIGURAÇÕES
-    .container-sobre{
-      text-align: center;
-    }
-
-    .btn-group{
-      display: inline-block;
-      button.category-button{
-        border-color:#FB9FB8;
-        border-radius: 10px !important;
-        background-color: white;
-        color:  #4B1A0C;
-        margin: 0 10px 6px 0;
-        letter-spacing: 1px; 
-        
-          }
-          button:hover{ 
-            background: #FB9FB8;  
-            color:white;   
-          }
-    }
-
-    // GAMBIARRA :ACTIVE
-    #all.btn{
-      background-color: #FB9FB8 !important;
-    }
-
-  }
-  //IMAGENS DO PORTFOLIO E SUAS CONFIGURAÇÕES
-    #portfoliolist .portfolio {
-      padding-left: 20px;
-      padding-right: 20px;
-      text-align: center;
-
-    }
-  
-    .portfolio img {
-      max-width:100%;
-      position: relative;
-      margin-top: 25px;
-      height: 175px;
-      width: 200px;
-      -webkit-transition: all 600ms cubic-bezier(0.645, 0.045, 0.355, 1);
-      transition:         all 600ms cubic-bezier(0.645, 0.045, 0.355, 1);		
-    }
-    
-    .portfolio:hover img {
-      transform: scale(1.1);
-    } 
-
-//===========CONTATO E SUAS TECNOLOGIAS=========== 
-
-    section.page-contato{
-      .row{
-        margin: 3px;
-        margin-bottom: 80px;
-      }
-      .title-contato{
-        font-family: French Script MT;
-        font-size: 70px;
-        color:  #4B1A0C;
-        padding-bottom: 50px;
-      }
-      .card{
-        border-color: #FB9DB6;
-        border-radius: 15px;
-        font-family: Gabriola;
-        color:#4B1A0C; 
-        font-size: 23px;
-        .iconePhone{
-          height: 18px;
-          width: 10px;
-         
-        }
-        .iconeMail{
-          height: 18px;
-          width: 18px;
-      
-        }
-        .card-title{
-          font-size: 23px;
-        }
-        hr {
-          border-color: #FB9DB6;
-          border-width: 0.25rem;
-          width: 3rem;
-        }
-      }
-        
-    }
-
-
-//===========FOOTER E SUAS TECNOLOGIAS===========   
-    footer{
-    background: #FFEEF8;
-    .row{
-      padding-top: 30px;
-      padding-bottom: 12px;
-      padding-left: 410px;
-      .social-media{
-        padding-right: 20px;
-        transition: all 0.4s ease-out;
-      }
-    }
-    .social-media:hover img {
-      cursor: pointer;
-      transform: translateY(-5px);
-    }
-    .footer-copyright{
-      margin-top: 10px;
-      color: #4B1A0C;
-    }
-
-    }
-  
-
-
-@media(max-width: 768px){
-  .navbar{
+//===========MEDIA QUERY E SUAS TECNOLOGIAS===========
+@media (max-width: 768px) {
+//ALTERAÇÕES NAVBAR
+  .navbar {
     padding-top: 5px;
     padding-bottom: 3px;
-    background-color:#FCE5F2;
-    .navbar-brand{
+    background-color: #fce5f2;
+    .navbar-brand {
       font-size: 35px;
-      color: #4B1A0C !important;
+      color: #4b1a0c !important;
     }
-    .nav-link{
-      color: #4B1A0C !important;
-    }   
- }
-
-  #mainNav.shrink { 
-    background-color:#FCE5F2;
-    color: #4B1A0C;
+    .nav-link {
+      color: #4b1a0c !important;
+    }
+  }
+  #mainNav.shrink {
+    background-color: #fce5f2;
+    color: #4b1a0c;
   }
 
-  header.apres{
+//ALTERAÇÕES HEADER
+  header.apres {
     width: 330px;
     height: 455px;
-    .container{
+    .container {
       margin-top: 25px;
-      
     }
   }
 
-  .content-sobre{
-    p{
+//ALTERAÇÕES CONTAINER SOBRE
+  .content-sobre {
+    p {
       font-size: 80%;
     }
-
-    .con{
+    .con {
       margin-top: -10% !important;
-      }
-
-    button.btn-port{
+    }
+    button.btn-port {
       margin-top: -5%;
       height: 45px;
-        } 
-      }
-
-      section.page-contato{
-      margin-right: 10px;
-      margin-left: 10px;
-      }
-
-      section.page-contato{
-     
-        .title-contato{
-          padding-top: 80px;
-          padding-bottom: 20px;
-        }
-      }  
-
-    footer{
-      .row{
-        padding-left: 65px;
-      }
-    }  
-    
     }
+  }
 
+//ALTERAÇÕES CONTAINER CONTATOS
+  section.page-contato {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  section.page-contato {
+    .title-contato {
+      padding-top: 80px;
+      padding-bottom: 20px;
+    }
+  }
+//ALTERAÇÕES FOOTER
+  footer {
+    .row {
+      padding-left: 65px;
+    }
+  }
+}
