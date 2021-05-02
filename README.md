@@ -18,6 +18,8 @@ Baixar código e abrir index.
 <ul>
   <li>Pré-requisito</li>
   <a>Possuir npm instalado</>
+</ul>
+  
 <ol>
   <li>Instalção Global Gulp</li>
   <a>npm install gulp-cli -g</a>
