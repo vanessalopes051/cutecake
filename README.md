@@ -7,6 +7,7 @@
   <li>Css 3</li> 
   <li>Sass</li> 
   <li>Bootstrap 4</li> 
+  <li>GulpJs</li>
   
 </ul>
 
