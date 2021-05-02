@@ -11,7 +11,20 @@
 </ul>
 
 <h2> Instruções </h2>
+<h3> Para visualização da landing page </h3>
+Baixar código e abrir index.
 
+<h3> Para alterações no código</h3>
+<ul>
+  <li>Pré-requisito</li>
+  <a>Possuir npm instalado</>
+<ol>
+  <li>Instalção Global Gulp</li>
+  <a>npm install gulp-cli -g</a>
+  
+  <li>Dentro do diretório do projeto, instalar dependências</li>
+  <a>npm install</a>
+ </ol>
 
 <h2> Telas </h2>
 <h3>Desktop</h3>
