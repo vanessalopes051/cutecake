@@ -4,3 +4,4 @@
 <h2> Tecnologias utilizadas </h2>
 * HTML5
 * Scss
+* Bootstrap 4
