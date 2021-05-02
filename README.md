@@ -2,6 +2,15 @@
 <h3> Landing Page desenvolvida como portifólio de divuldação da doceria CuteCake.</h3>
 
 <h2> Tecnologias utilizadas </h2>
-* HTML5
-* Scss
-* Bootstrap 4
+<ul>
+  <li>HTML5</li>
+  <li>Css 3</li> 
+  <li>Sass</li> 
+  <li>Bootstrap 4</li> 
+  
+</ul>
+
+<h2> Instruções </h2>
+
+
+<h2> Telas </h2>
