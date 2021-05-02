@@ -17,16 +17,24 @@ Baixar código e abrir index.
 <h3> Para alterações no código</h3>
 <ul>
   <li>Pré-requisito</li>
-  <a>Possuir npm instalado</>
+  <a>Possuir nodejs instalado</>
 </ul>
   
 <ol>
-  <li>Instalção Global Gulp</li>
+  <li>Para instalção Global do GulpJs, execute:</li>
   <a>npm install gulp-cli -g</a>
   
-  <li>Dentro do diretório do projeto, instalar dependências</li>
+  <li>Para instalar dependências dentro do diretório do projeto, execute:</li>
   <a>npm install</a>
+  
+  <li>Para baixar a ligação para seu ambiente de desenvolvimento atual, execute:</li>
+  <a>npm rebuild node-sass</a>
+  
+  <li>Para executar GulpJS, execute</li>
+  <a>gulp</a>
  </ol>
+ 
+ <p>Após esses passos se tudo estiver correto as alterações poderão ser realizadas normalmente.</p>
 
 <h2> Telas </h2>
 <h3>Desktop</h3>
