@@ -39,7 +39,7 @@ Baixar código e abrir index.
 
 <h2> Telas </h2>
 <h3>Desktop</h3>
-![CuteCake-Desktop](https://user-images.githubusercontent.com/54334704/116832573-d064c180-ab8b-11eb-8787-38ad98a145d4.gif)
+<img src="https://user-images.githubusercontent.com/54334704/116832573-d064c180-ab8b-11eb-8787-38ad98a145d4.gif">
 
 <h3>Mobile</h3>
 
